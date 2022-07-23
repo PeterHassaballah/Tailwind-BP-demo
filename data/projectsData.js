@@ -1,11 +1,11 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Ocra',
+    description: `Ocra is the vanguard of bus wrapping and transportation ads in the Egyptian market. With 
+    routes in Alex, Delta, Upper Egypt, and every corner of Greater Cairo & Giza, we can make your brand 
+    roam every street in the country, attracting millions of views`,
+    imgSrc: '/static/images/ocra.jpg',
+    href: 'https://www.facebook.com/OcraWallet/about/',
   },
   {
     title: 'The Time Machine',
