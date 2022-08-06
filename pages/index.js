@@ -22,10 +22,15 @@ export default function Home({ posts }) {
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Latest
+            Rent OOH ad spaces <i>with a tap</i>
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
+          </p>
+          <p className="text-sm leading-7 text-gray-500 dark:text-gray-400">
+            Give your business the spotlight it deserves by renting OOH ad spaces from all over
+            Egypt with Mashy Live. Place ads anywhere, anytime, and with ease through our intuitive
+            system.
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
