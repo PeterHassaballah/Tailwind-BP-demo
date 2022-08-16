@@ -1,6 +1,6 @@
 const siteMetadata = {
   title: 'Mashy Live',
-  author: 'Peter Hassaballah',
+  author: 'Mashy Team',
   headerTitle: 'Mashy',
   description: 'an online marketplace for outdoor ad spaces',
   language: 'en-us',

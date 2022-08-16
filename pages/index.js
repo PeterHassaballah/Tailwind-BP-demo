@@ -6,6 +6,8 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 
 import NewsletterForm from '@/components/NewsletterForm'
+import AntCarousel from '@/components/AntCarousel'
+import Carousel from '@/components/Carousel'
 
 const MAX_DISPLAY = 5
 
@@ -33,7 +35,11 @@ export default function Home({ posts }) {
             system.
           </p>
         </div>
-        <ul className="divide-y divide-gray-200 dark:divide-gray-700">
+        <div>
+          <AntCarousel />
+        </div>
+        {/* posts (articles) view on main page  */}
+        {/* <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
@@ -84,6 +90,7 @@ export default function Home({ posts }) {
             )
           })}
         </ul>
+    */}
       </div>
       {posts.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base font-medium leading-6">
@@ -92,7 +99,7 @@ export default function Home({ posts }) {
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             aria-label="all posts"
           >
-            All Posts &rarr;
+            See All Articles &rarr;
           </Link>
         </div>
       )}
