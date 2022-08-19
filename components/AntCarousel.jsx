@@ -1,6 +1,7 @@
 import { Carousel } from 'antd'
 import React from 'react'
 import 'antd/dist/antd.css'
+import BackG from '../public/static/images/g881.png'
 const contentStyle = {
   height: '160px',
   color: '#fff',
@@ -16,7 +17,8 @@ const AntCarousel = () => {
 
   return (
     <>
-      <h1> What we Do</h1>
+      <span className="p-1 text-6xl text-blue-900 dark:text-blue-200 sm:p-4">What we Do</span>
+      <img className="block w-full" src={BackG} alt="cover" />
 
       <Carousel afterChange={onChange} autoplay>
         <div>
