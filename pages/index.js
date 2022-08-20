@@ -8,6 +8,7 @@ import formatDate from '@/lib/utils/formatDate'
 import NewsletterForm from '@/components/NewsletterForm'
 import AntCarousel from '@/components/AntCarousel'
 import Carousel from '@/components/Carousel'
+import AntCard from '@/components/AntCard'
 
 const MAX_DISPLAY = 5
 
@@ -35,8 +36,11 @@ export default function Home({ posts }) {
             system.
           </p>
         </div>
-        <div>
+        <div id="WhattoDO">
           <AntCarousel />
+        </div>
+        <div id="Adtypes">
+          <AntCard />
         </div>
         {/* posts (articles) view on main page  */}
         {/* <ul className="divide-y divide-gray-200 dark:divide-gray-700">
