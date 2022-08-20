@@ -8,10 +8,10 @@ const AntCard = () => {
   }
 
   return (
-    <>
+    <div>
       <Row gutter={[16, 16]}>
         <Col span={24}>
-          <h1>Ad Spaces</h1>
+          <span className="p-1 text-6xl text-blue-900 dark:text-blue-200 sm:p-4">Ad Spaces</span>
 
           <Card title="Areas of Expertise">
             <Card.Grid className="gso">Billboards</Card.Grid>
@@ -24,7 +24,7 @@ const AntCard = () => {
           </Card>
         </Col>
       </Row>
-    </>
+    </div>
   )
 }
 
