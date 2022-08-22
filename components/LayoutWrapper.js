@@ -1,11 +1,12 @@
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
-import Logo from '@/data/logo.svg'
+// import Logo from '@/data/logo.svg'
+// import CoImg from '../public/static/images/logo.png';
 import Link from './Link'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
-import ThemeSwitch from './ThemeSwitch'
+// import ThemeSwitch from './ThemeSwitch'
 
 const LayoutWrapper = ({ children }) => {
   return (
@@ -16,7 +17,12 @@ const LayoutWrapper = ({ children }) => {
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
                 <div className="mr-3">
-                  <Logo />
+                  {/* <Logo /> */}
+                  <img
+                    src="https://i.ibb.co/b3tVWy4/logo.png"
+                    className=" h-auto w-12"
+                    alt="company logo"
+                  />
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="hidden h-6 text-2xl font-semibold sm:block">
@@ -40,7 +46,13 @@ const LayoutWrapper = ({ children }) => {
                 </Link>
               ))}
             </div>
-            <ThemeSwitch />
+            <button
+              type="button"
+              className="inline-block rounded bg-gray-300  px-6 py-2.5 text-xs font-medium uppercase leading-tight text-blue-600 transition duration-300 ease-in-out hover:bg-gray-100 focus:bg-gray-100 focus:text-blue-700 focus:outline-none focus:ring-0 active:bg-gray-200 active:text-blue-800"
+            >
+              <Link href="https://mashylive.sharetribe.com">Go to MarketPlace</Link>
+            </button>
+            {/* <ThemeSwitch /> */}
             <MobileNav />
           </div>
         </header>

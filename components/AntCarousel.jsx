@@ -7,7 +7,7 @@ const contentStyle = {
   color: '#fff',
   lineHeight: '160px',
   textAlign: 'center',
-  background: '#2F2E41',
+  background: '#A5BDCE',
 }
 
 const AntCarousel = () => {
@@ -18,7 +18,15 @@ const AntCarousel = () => {
   return (
     <>
       <span className="p-1 text-6xl text-blue-900 dark:text-blue-200 sm:p-4">What we Do</span>
-      <img className="block w-full" src={BackG} alt="cover" />
+      {/* <img className="block w-full" src={BackG} alt="cover" /> */}
+      <div>
+        <img
+          src="https://i.ibb.co/dLzt917/g881.png"
+          className=" h-64 w-full  bg-[#A5BDCE]"
+          alt="company logo"
+        />
+      </div>
+      {/* <div className="bg-[url('https://i.ibb.co/dLzt917/g881.png')]"> */}
 
       <Carousel afterChange={onChange} autoplay>
         <div>
@@ -39,6 +47,7 @@ const AntCarousel = () => {
           </p>
         </div>
       </Carousel>
+      {/* </div>  */}
     </>
   )
 }
