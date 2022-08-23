@@ -17,7 +17,9 @@ const AntCarousel = () => {
 
   return (
     <>
-      <span className="p-1 text-6xl text-blue-900 dark:text-blue-200 sm:p-4">What we Do</span>
+      <div className="mb-2">
+        <span className="p-1 text-6xl text-blue-900 dark:text-blue-200 sm:p-4 ">What we Do</span>
+      </div>
       {/* <img className="block w-full" src={BackG} alt="cover" /> */}
       <div>
         <img
