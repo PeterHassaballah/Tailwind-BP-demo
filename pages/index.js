@@ -22,9 +22,15 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="bg-[#A5BDCE]">
+      <div className="">
+        {/* bg-[#A5BDCE] */}
         <div className="divide-y divide-gray-200 dark:divide-gray-700">
           <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+            <img
+              src="https://i.ibb.co/pwf5XbH/banner.png"
+              className="h-96 w-screen "
+              alt="company Banner"
+            />
             <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Rent OOH ad spaces <i>with a tap</i>
             </h1>

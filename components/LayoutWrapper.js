@@ -10,7 +10,8 @@ import MobileNav from './MobileNav'
 
 const LayoutWrapper = ({ children }) => {
   return (
-    <div className="bg-[#A5BDCE]">
+    <>
+      {/* bg-[#A5BDCE] */}
       <SectionContainer>
         <div className="flex h-screen flex-col justify-between">
           <header className="flex items-center justify-between py-10">
@@ -65,7 +66,7 @@ const LayoutWrapper = ({ children }) => {
           <Footer />
         </div>
       </SectionContainer>
-    </div>
+    </>
   )
 }
 
