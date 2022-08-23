@@ -34,19 +34,22 @@ const AntCarousel = () => {
       <Carousel afterChange={onChange} autoplay>
         <div>
           <p style={contentStyle}>
-            Mashy Live is an online marketplace for any and all types of outdoor ad spaces.
+            Mashy Live is an online marketplace for any and all types of outdoor ad spaces
           </p>
         </div>
         <div>
           <p style={contentStyle}>
             Simply put, Mashy aims to streamline and optimize the process of outdoor advertising by
-            making it simpler for businesses, agencies, and ad space owners / subletters.
+            making the process of ad spaces’ offering and renting simpler, faster and transparent
+            like never before for businesses, agencies, and ad space owners / subletters
           </p>
         </div>
         <div>
           <p style={contentStyle}>
-            In the not-so-far-future, Mashy Live will also be used to run ads on the ever-increasing
-            number of static and also moving digital screens, in the streets of Egypt.
+            That's made possible by providing a highly organized, state-of-the-art platform to host
+            heaps of outdoor ad spaces of all kinds added by reputable sellers. Afterwards,
+            advertisers and media buyers can delve into a very diverse pool of OOH and rent to their
+            hearts’ content
           </p>
         </div>
       </Carousel>
