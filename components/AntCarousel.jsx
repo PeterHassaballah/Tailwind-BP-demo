@@ -21,8 +21,9 @@ const AntCarousel = () => {
       {/* <img className="block w-full" src={BackG} alt="cover" /> */}
       <div>
         <img
+          style={{ padding: '24px 200px' }}
           src="https://i.ibb.co/dLzt917/g881.png"
-          className=" h-64 w-full  bg-[#A5BDCE]"
+          className=" h-64 w-full bg-[#A5BDCE]"
           alt="company logo"
         />
       </div>
