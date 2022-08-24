@@ -8,11 +8,19 @@ const projectsData = [
     href: 'https://www.facebook.com/OcraWallet/about/',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
+    title: 'Adzily',
+    description: `Adzily is a Digital Out of Home Advertising Solution aims to help advertisers 
+    use the benefits of Digital Advertising (Targeting, Segmentation, Analytics, and AI) to reach 
+    potential customers on Offline media (Display Screens) available in public places`,
+    imgSrc: '/static/images/adzily.png',
+    href: '/blog/the-time-machine',
+  },
+  {
+    title: 'Mwasalat Masr ',
+    description: `
+    Mwasalat Misr is a pioneering international company aiming at destigmatizing public transport in Cairo, Egypt. Everyday life, made simple.
+    `,
+    imgSrc: '/static/images/mm.png',
     href: '/blog/the-time-machine',
   },
 ]
